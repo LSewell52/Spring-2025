@@ -1,0 +1,19 @@
+/* Colors */
+
+/* 
+60% of #706253 - Primary
+30% of #769955 - Seconday
+10% of #618E9D - Accent
+*/
+
+:root {
+
+/* var(--primaryColor) !important; */
+--PrimaryColor: #706253;
+
+/* var(--primaryColor) !important; */
+--SecondaryColor: #769955;
+
+/* var(--primaryColor) !important; */
+--AccentColor: #618E9D;
+}
