@@ -9,11 +9,11 @@
 :root {
 
 /* var(--primaryColor) !important; */
---PrimaryColor: #706253;
+--PrimaryColor: #637F75;
 
 /* var(--primaryColor) !important; */
---SecondaryColor: #769955;
+--SecondaryColor: #95806E;
 
 /* var(--primaryColor) !important; */
---AccentColor: #618E9D;
+--AccentColor: #A35B3F;
 }
