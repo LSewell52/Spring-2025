@@ -34,13 +34,16 @@
 }
 
 .col:nth-of-type(9) {
-    background-color: blanchedalmond;
+    background-color: rgb(218, 139, 139);
 }
 
 .col:nth-of-type(10) {
-    background-color: blanchedalmond;
+    background-color: rgb(119, 187, 161);
 }
 
 .col:nth-of-type(11) {
-    background-color: blanchedalmond;
+    background-color: rgb(141, 104, 69);
+}
+.col:nth-of-type(12) {
+    background-color: rgb(85, 84, 85);
 }
