@@ -1,49 +1,6 @@
 @import 'global.css';
 @import 'main.css';
 
-.col {
-    border: 1px solid black;
-}
-
-.col:nth-of-type(2) {
-    background-color: blanchedalmond;
-}
-
-.col:nth-of-type(3) {
-    background-color: rgb(74, 105, 76);
-}
-
-.col:nth-of-type(4) {
-    background-color: rgb(194, 126, 38);
-}
-
-.col:nth-of-type(5) {
-    background-color: rgb(216, 208, 99);
-}
-
-.col:nth-of-type(6) {
-    background-color: rgb(108, 152, 153);
-}
-
-.col:nth-of-type(7) {
-    background-color: rgb(172, 111, 162);
-}
-
-.col:nth-of-type(8) {
-    background-color: rgb(69, 82, 141);
-}
-
-.col:nth-of-type(9) {
-    background-color: rgb(218, 139, 139);
-}
-
-.col:nth-of-type(10) {
-    background-color: rgb(119, 187, 161);
-}
-
-.col:nth-of-type(11) {
-    background-color: rgb(141, 104, 69);
-}
-.col:nth-of-type(12) {
-    background-color: rgb(85, 84, 85);
+body {
+    font-family: var(--fontFamily) !important;
 }
