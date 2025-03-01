@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 /* colors */
 
 /* 
@@ -9,11 +12,14 @@
 :root {
 
 /* var(--primaryColor) !important; */
---PrimaryColor: #637F75;
+--primaryColor: #637F75;
 
-/* var(--primaryColor) !important; */
---SecondaryColor: #95806E;
+/* var(--secondaryColor) !important; */
+--secondaryColor: #95806E;
 
-/* var(--primaryColor) !important; */
---AccentColor: #A35B3F;
+/* var(--accentColor) !important; */
+--accentColor: #A35B3F;
+
+/* var(--fontFamily) !important; */
+--fontFamily: "Playfair Display", serif;
 }
