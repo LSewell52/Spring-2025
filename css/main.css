@@ -9,4 +9,5 @@ h1, h2 {
 
 .blinn-footer-container {
     background-color: var(--primaryColor) !important;
+    padding: 40px;
 }
