@@ -58,6 +58,28 @@
                 <label for="phone">Phone</label>
                 <input type="text" name="phone" placeholder="(###) ###-####" />
               </div>
+              <!-- start date - date -->
+               <div>
+                <label for="start-date">Start Date</label>
+                <input type="date" name="startDate" required />
+               </div>
+               <!-- Tshirt - Select field -->
+                <div>
+                    <label for="t-shirt">T-shirt Size</label>
+                    <select id="t-shirt" required>
+                        <option value="">Select T-shirt size </option>
+                        <option value="XXS">XXS</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                    <input type="text" name="custom" placeholder="Please input a custom size" disable />
+                </div>
+
+        
     
              <!-- submit button -->
      <div>
@@ -81,6 +103,9 @@
 
 <!-- Local JS File with Footer -->
 <script src="components/js/footer.js"></script>
+
+<!-- local jd file for form -->
+ <script src="/js/form.js"></script>
 
 </section>
 </body>
