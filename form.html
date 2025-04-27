@@ -35,38 +35,38 @@
         <!-- first name -->
     <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
         <label for="first-name">First Name</label>
-        <input type="text" id="first-name" name="firstName"/>
+        <input type="text" id="first-name" name="firstName" class="form-control" />
     </div>
             <!-- last name -->
             <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="lastName"/>
+                <input type="text" id="last-name" name="lastName" class="form-control" />
             </div>
 
             <!-- Age - number -->
              <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
              <label for="age">Age</label>
-             <input type="number" name="age" id="age" min="18" max="120" />
+             <input type="number" name="age" id="age" min="18" max="120" class="form-control" />
             </div>
             <!-- Email - email -->
              <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="email">Email</label>
-                <input type="email" name="email"/>
+                <input type="email" name="email" class="form-control" />
              </div>
              <!-- phone-->
               <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="phone">Phone</label>
-                <input type="text" id="phone" name="phone" placeholder="(###) ###-####" />
+                <input type="text" id="phone" name="phone" placeholder="(###) ###-####" class="form-control" />
               </div>
               <!-- start date - date -->
                <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label for="start-date">Start Date</label>
-                <input type="date" id="date" name="startDate" required />
+                <input type="date" id="date" name="startDate" required class="form-control" />
                </div>
                <!-- Tshirt - Select field -->
                 <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="t-shirt">T-shirt Size</label>
-                    <select id="t-shirt" required>
+                    <select id="t-shirt" required class="form-select" >
                         <option value="">Select T-shirt size </option>
                         <option value="XXS">XXS</option>
                         <option value="XS">XS</option>
@@ -82,26 +82,26 @@
                 <!-- Tshirt Color - color -->
                  <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="color">Tshirt Color</label>
-                    <input type="color" name="color" id="color" />
+                    <input type="color" name="color" id="color" class="form-control" />
                  </div>
                  <!-- Background Check - Upload File -->
 
                  <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="background-check">Background Check</label>
-                    <input type="file" id="background-check" accept=".pdf" />
+                    <input type="file" id="background-check" accept=".pdf" class="form-control" />
                  </div>
 
                  <!-- Participating In - Radio Buttons -->
                   <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <strong>Participating In</strong><br />
 
-                    <input type="radio" name="participation" id="fashion-show" values="Fashion Show" required/>
+                    <input type="radio" name="participation" id="fashion-show" values="Fashion Show" required class="form-control radio" />
                     <label for="fashion-show">Fashion Show</label>
 
-                    <input type="radio" name="participation" id="donations" values="Donations" required/>
+                    <input type="radio" name="participation" id="donations" values="Donations" required class="form-control radio" />
                     <label for="donations">Donations</label>
 
-                    <input type="radio" name="participation" id="expectator" values="Expectator" reduired/>
+                    <input type="radio" name="participation" id="expectator" values="Expectator" reduired class="form-control radio" />
                     <label for="expectator">Expectator</label>
 
                   </div>
@@ -110,25 +110,25 @@
                    <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                    <strong>Time of Day</strong><br />
 
-                   <input type="checkbox" name="timeofday" id="time-of-day-morning" value="Morning" required />
+                   <input type="checkbox" name="timeofday" id="time-of-day-morning" value="Morning" required  class="form-control checkbox" />
                    <label for="time-of-day-morning">Morning</label>
 
-                   <input type="checkbox" name="timeofday" id="time-of-day-afternoon" value="Afternoon" required />
+                   <input type="checkbox" name="timeofday" id="time-of-day-afternoon" value="Afternoon" required  class="form-control checkbox" />
                    <label for="time-of-day-afternoon">Afternoon</label>
 
-                   <input type="checkbox" name="timeofday" id="time-of-day-evening" value="Evening" required />
+                   <input type="checkbox" name="timeofday" id="time-of-day-evening" value="Evening" required  class="form-control checkbox" />
                    <label for="time-of-day-evening">Evening</label>
                 </div>
 
                    <!-- Comments -->
                     <div class="col-12">
                         <label for="about-you">Tell us about you</label><br />
-                        <textarea name="about-you" id="about-you"></textarea>
+                        <textarea name="about-you" id="about-you" class="form-control" ></textarea>
                     </div>
 
                     <!-- Terms and Conditions - Checkbox with toggle switch -->
-                     <div class="col-12">
-                        <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes">
+                     <div class="col-12 form-check form-switch">
+                        <input type="checkbox" name="terms" id="terms-and-conditions" value="Yes" class="fprm-check-input checkbox">
                         <label for="terms-and-conditions">I Accept the Terms and Conditions</label>
                      </div>
 
@@ -136,7 +136,7 @@
     
              <!-- submit button -->
      <div class="col-12">
-        <input type="submit" name="submit" value="Volunteer Now" class="submit"/>
+        <input type="submit" name="submit" value="Volunteer Now"  class="form-control submit" />
      </div>
 </div>
 </form>
