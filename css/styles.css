@@ -28,6 +28,10 @@ p {
     padding: 50px;
 }
 
+.paragraph-one {
+    position: relative;
+    top: 20px
+}
 
 .paragraph-one-img {
     position: relative;
