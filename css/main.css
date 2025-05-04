@@ -21,6 +21,10 @@ h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
 }
 
+.luxe-footer-container .footer-column {
+    text-align: center;
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 18px;
