@@ -25,6 +25,10 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+.luxe-footer-container a {
+    color: white;
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 18px;
