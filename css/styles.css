@@ -30,7 +30,8 @@ p {
 
 .paragraph-one {
     position: relative;
-    top: 10px
+    top: 10px;
+    font-size: 30px;
 }
 
 .paragraph-one-img {
