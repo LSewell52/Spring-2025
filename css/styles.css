@@ -29,14 +29,6 @@ p {
 }
 
 
-#custom-clip-path {
-    width: 100%;
-    height: 280px;
-    background-color: var(--secondaryColor) !important;
-    clip-path: polygon(0 0, 100% 0%, 100% 14%, 0 14%);
-    position: relative;
-    margin-top: -5px;
-}
 
 .cropped {
     width: 250px;
@@ -46,3 +38,4 @@ p {
     border-radius: 50%;
     clip-path: circle(50% at 50% 50%);
 }
+
